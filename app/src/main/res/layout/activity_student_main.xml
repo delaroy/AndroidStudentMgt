@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01315a"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.delaroystudios.studentmgt.StudentMainActivity" >
+
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Roll No."
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Name" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp" >
+
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp" >
+
+        <Button
+            android:id="@+id/modifybtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Modify" />
+
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="View" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.74" >
+
+        <Button
+            android:id="@+id/viewallbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="View all" />
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Show" />
+
+    </LinearLayout>
+
+</LinearLayout>
